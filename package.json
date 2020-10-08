@@ -1,0 +1,24 @@
+{
+  "name": "dc-1-sheena-nick",
+  "version": "1.0.0",
+  "description": "using gulpfile by Nick",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickaguilos/dc-1-sheena-nick.git"
+  },
+  "author": "Nick and Sheena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickaguilos/dc-1-sheena-nick/issues"
+  },
+  "homepage": "https://github.com/nickaguilos/dc-1-sheena-nick#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
