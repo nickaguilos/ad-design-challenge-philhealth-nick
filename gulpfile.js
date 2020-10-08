@@ -12,7 +12,7 @@ function style() {
 function watch() {
     browserSync.init({
         server: {
-            baseDir: './'
+            baseDir: './web/'
         }
     });
     gulp.watch('./sass/*.scss', style);

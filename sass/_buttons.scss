@@ -1,0 +1,15 @@
+// Buttons 
+
+.button {
+    display: inline-block;
+    padding: 1em;
+    border-radius: 7px;
+    background-color: $highlight-green;
+    color: #FFF;
+    font-weight: bold;
+    transition: background 0.2s;
+
+    &:hover {
+        background-color: $base-green;
+    }
+}

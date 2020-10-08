@@ -1,0 +1,19 @@
+// Defaults
+
+body {
+    font-family: $default-font;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: $highlight-green;
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+        color: $base-green;
+    }
+}
