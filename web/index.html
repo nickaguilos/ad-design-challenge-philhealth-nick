@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="/css/main.css">
 	<title>Philhealth &middot; Home</title>
 </head>
-<body>
+<body id="home">
 	<header id="site-head">
 		<a href="index.html" id="logo">
 			<?xml version="1.0" encoding="UTF-8"?>
@@ -41,9 +41,25 @@
 			<a href="account.html">Sign In</a>
 		</nav>
 
-		<form action="results.html">
-			<input type="text" placeholder="Search">
+		<form id="search-box" action="results.html">
+			<input type="search" placeholder="Search">
+			<button><img src="/images/search-icon.svg" alt=""></button>
 		</form>
+		
+		<nav id="hamburger" class="hidden-on-desktop">
+			<input type="checkbox">
+		
+			<span></span>
+			<span></span>
+		
+			<div id="menu-overlay">
+				<a href="about.html">About Us</a>
+				<a href="members.html">Members</a>
+				<a href="partners.html">Our Partners</a>
+				<a href="services.html">Services</a>
+				<a href="account.html">Sign In</a>
+			</div>
+		</nav>
 	</header>
 	
 	<main class="grid">
@@ -51,7 +67,7 @@
 			<h1>Welcome To The Philippine Health Insurance Corporation</h1>
 			<p class="subheading">Providing universal health coverage to all Filipinos since 1994</p>
 			
-			<a href="account.html" class="button">Request A Claim</a>
+			<a href="claims.html" class="button">Request A Claim</a>
 		</section>
 
 		<section id="carousel">
@@ -70,7 +86,7 @@
 			<article>
 				<h3>Interim reimbursement program</h3>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat repudiandae amet nobis consequuntur distinctio alias iste dolorem saepe. Eos saepe minima repellat suscipit architecto, in enim, cupiditate explicabo tempore doloremque quis sed fugiat minus distinctio beatae tempora voluptate exercitationem? Voluptatibus impedit aut, iusto odio soluta est. Deleniti impedit pariatur animi laborum. Libero ratione ad pariatur? Qui dicta consectetur voluptate.
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, reprehenderit reiciendis! Quaerat vero dolorem, eaque accusantium nulla cum optio quibusdam, illo earum neque labore voluptatum aut alias deserunt ipsam repellat ad. Quo reiciendis, maxime veniam dolor quia ducimus voluptatem esse?
 				</p>
 
 				<a href="article.html">Read More</a>
@@ -79,11 +95,7 @@
 			<article>
 				<h3>The Fight Against COVID-19</h3>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat repudiandae amet nobis consequuntur
-					distinctio alias iste dolorem saepe. Eos saepe minima repellat suscipit architecto, in enim, cupiditate
-					explicabo tempore doloremque quis sed fugiat minus distinctio beatae tempora voluptate exercitationem?
-					Voluptatibus impedit aut, iusto odio soluta est. Deleniti impedit pariatur animi laborum. Libero ratione ad
-					pariatur? Qui dicta consectetur voluptate.
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, explicabo voluptatum at numquam neque laborum velit ipsum accusamus consectetur tenetur magni. Maiores at, nemo numquam, officia consequatur accusamus culpa non hic sequi molestiae quod cumque voluptatibus eaque beatae nulla exercitationem.
 				</p>
 			
 				<a href="article.html">Read More</a>
@@ -92,11 +104,7 @@
 			<article>
 				<h3>Gierran Takes Oath of Office</h3>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat repudiandae amet nobis consequuntur
-					distinctio alias iste dolorem saepe. Eos saepe minima repellat suscipit architecto, in enim, cupiditate
-					explicabo tempore doloremque quis sed fugiat minus distinctio beatae tempora voluptate exercitationem?
-					Voluptatibus impedit aut, iusto odio soluta est. Deleniti impedit pariatur animi laborum. Libero ratione ad
-					pariatur? Qui dicta consectetur voluptate.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita consequuntur laborum eligendi tenetur. Repellendus voluptates delectus rerum placeat accusantium dolorum aspernatur, voluptate vitae eum repudiandae necessitatibus? Nesciunt quidem dolor beatae repellat laudantium commodi placeat ex.
 				</p>
 			
 				<a href="article.html">Read More</a>
@@ -118,11 +126,7 @@
 			<article>
 				<h3>The Fight Against COVID-19</h3>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat repudiandae amet nobis consequuntur
-					distinctio alias iste dolorem saepe. Eos saepe minima repellat suscipit architecto, in enim, cupiditate
-					explicabo tempore doloremque quis sed fugiat minus distinctio beatae tempora voluptate exercitationem?
-					Voluptatibus impedit aut, iusto odio soluta est. Deleniti impedit pariatur animi laborum. Libero ratione ad
-					pariatur? Qui dicta consectetur voluptate.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque autem molestias deleniti earum quibusdam numquam aut. Nesciunt non omnis iste est a quam saepe dicta fugit vel fuga eum, quisquam, quo, nostrum dolorum earum velit officiis eos natus eligendi expedita.
 				</p>
 			
 				<a href="article.html">Read More</a>
@@ -131,11 +135,7 @@
 			<article>
 				<h3>Gierran Takes Oath of Office</h3>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat repudiandae amet nobis consequuntur
-					distinctio alias iste dolorem saepe. Eos saepe minima repellat suscipit architecto, in enim, cupiditate
-					explicabo tempore doloremque quis sed fugiat minus distinctio beatae tempora voluptate exercitationem?
-					Voluptatibus impedit aut, iusto odio soluta est. Deleniti impedit pariatur animi laborum. Libero ratione ad
-					pariatur? Qui dicta consectetur voluptate.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, odio nemo natus atque temporibus voluptatum amet. Eveniet blanditiis quas harum autem accusamus exercitationem voluptatibus omnis voluptates recusandae nesciunt dolorum rem minus rerum error possimus, debitis repellendus? Aperiam corporis quibusdam deleniti?
 				</p>
 			
 				<a href="article.html">Read More</a>
