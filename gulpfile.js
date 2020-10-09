@@ -5,14 +5,14 @@ const browserSync = require('browser-sync').create();
 function style() {
     return gulp.src('./sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./web/css'))
+    .pipe(gulp.dest('./css'))
     .pipe(browserSync.stream());
 }
 
 function watch() {
     browserSync.init({
         server: {
-            baseDir: './web/'
+            baseDir: './'
         }
     });
     gulp.watch('./sass/*.scss', style);
