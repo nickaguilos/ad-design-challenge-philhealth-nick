@@ -152,9 +152,17 @@
         padding: 3em;
         margin: 60px 0;
 
+        img {
+            width: 50%;
+        }
+
         @media screen and (max-width: 1050px) {
             flex-direction: column-reverse;
             padding: 1em 1em 2em 1em;
+
+            img {
+                width: 100%;
+            }
         }
     }
 

@@ -196,10 +196,14 @@ blockquote {
   border-radius: 7px;
   padding: 3em;
   margin: 60px 0; }
+  #home #carousel img {
+    width: 50%; }
   @media screen and (max-width: 1050px) {
     #home #carousel {
       flex-direction: column-reverse;
-      padding: 1em 1em 2em 1em; } }
+      padding: 1em 1em 2em 1em; }
+      #home #carousel img {
+        width: 100%; } }
 
 #home #articles h2 {
   margin-bottom: -1em; }
