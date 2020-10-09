@@ -1,4 +1,7 @@
-# Panimula CSS
+
+# Design Challenge # 2: Redesign PhilHealth
+
+Running on Panimula CSS
 Base sass and html files for any project
 
 using gulpfile by Nick 
